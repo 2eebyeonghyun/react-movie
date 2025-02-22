@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  height: 100px;
+
+  .inner {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-logo {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}

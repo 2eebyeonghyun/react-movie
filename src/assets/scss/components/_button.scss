@@ -1,0 +1,27 @@
+@use "../abstracts/mixin/background" as *;
+
+.btn-change {
+  width: 2rem;
+  aspect-ratio: 1;
+
+  &.light {
+    @include background("ico-darkMode.svg", center, null, size, cover);
+  }
+
+  &.dark {
+    @include background("ico-lightMode.svg", center, null, size, cover);
+  }
+}
+
+.btn-search {
+  width: 2rem;
+  aspect-ratio: 1;
+  @include background("ico-search.svg", center, null, size, cover);
+
+  .filter-box & {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    translate: 0 -50%;
+  }
+}
