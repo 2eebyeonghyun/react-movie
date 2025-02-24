@@ -25,3 +25,22 @@
     translate: 0 -50%;
   }
 }
+
+.btn-link {
+  width: 20rem;
+  height: 6rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #f00;
+    color: #fff;
+  }
+}

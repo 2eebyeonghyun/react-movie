@@ -12,14 +12,27 @@
     align-items: center;
 
     .form-select {
-      height: 3.5rem;
+      width: 15rem;
+      padding-inline: 1rem;
+      outline: none;
+      border: none;
+      // color: #da4b4d;
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: 400;
+      background: url(../images/ico-downArrow.svg) calc(100% - 5px) center
+        no-repeat;
+      background-size: 2rem;
+      -o-appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
 
-      &.select-year {
-        width: 10rem;
-      }
-
-      &.select-type {
-        width: 10rem;
+      html[data-theme="light"] & {
+        color: #07111e;
+        background: url(../images/ico-downArrow-black.svg) calc(100% - 5px)
+          center no-repeat;
+        background-size: 2rem;
       }
     }
 
