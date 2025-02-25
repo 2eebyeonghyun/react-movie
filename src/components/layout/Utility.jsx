@@ -12,7 +12,10 @@ const Utility = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate(`/result?s=${value}`);
+
+    if (value.trim()) {
+      navigate(`/result?s=${value}`);
+    }
   };
 
   return (
