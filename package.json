@@ -8,10 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "homepage": "https://2eebyeonghyun.github.io/react-movie/"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.66.9",
