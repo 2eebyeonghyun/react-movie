@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "homepage": "https://your-username.github.io/react-movie"
+    "homepage": "https://2eebyeonghyun.github.io/react-movie"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.66.9",
